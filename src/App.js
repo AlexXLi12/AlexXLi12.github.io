@@ -3,6 +3,8 @@ import './App.css';
 
 function App() {
   return (
+    <>
+    <Jumbotron />
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,8 +20,21 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+      </div>
+    </>
   );
 }
 
+const Jumbotron = () => {
+  return (
+    <div className="jumbotron">
+      <div className="element">
+        <img src="./images/nyc_portrait.JPG" alt="" />
+      </div>
+      <div className="element">
+        <h1>Hi, I'm Alex.</h1>
+      </div>
+    </div>
+);
+}
 export default App;
