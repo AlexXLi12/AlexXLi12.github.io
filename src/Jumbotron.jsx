@@ -4,10 +4,8 @@ const Jumbotron = () => {
 		<div className="jumbotron">
 			<div className="element">
 				<h1>Hi, I'm Alex.</h1>
-				<div
-					className="element"
-					style={{ flexDirection: "row", justifyContent: "center" }}
-				>
+			</div>
+				<div className="socials">
 					<a
 						href="https://github.com/AlexXLi12"
 						style={{ marginRight: "0.5%" }}
@@ -45,7 +43,6 @@ const Jumbotron = () => {
 						/>
 					</a>
 				</div>
-			</div>
 		</div>
 	);
 };
