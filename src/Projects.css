@@ -19,7 +19,7 @@
 }
 
 .projects h1 {
-	font-size: 4rem;
+	font-size: 4vh;
 	margin-top: 0%;
 }
 
@@ -32,7 +32,7 @@
 	align-items: center;
 	padding: 1%;
     margin: 1%;
-	border: 2px solid #253237;
+	border: black 0.1vh solid;
     border-radius: 10px;
 	box-sizing: border-box;
 }

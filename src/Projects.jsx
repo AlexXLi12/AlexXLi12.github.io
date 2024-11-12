@@ -30,7 +30,7 @@ const Projects = () => {
 
 const ProjectCard = ({ title, description, image, link }) => {
 	return (
-		<div className="project-card">
+		<div className="project-card bend-effect">
 			<img src={image} alt="" className="project-card-image" />
 			<div className="project-card-content">
 				<h3>{title}</h3>
