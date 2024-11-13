@@ -10,39 +10,46 @@
 
 .projects .project-cards {
 	width: 100vw;
-	height: 100vh;
 	display: flex;
 	flex-wrap: wrap;
     justify-content: center;
-	padding: 5%;
+	padding: 2%;
 	box-sizing: border-box;
 }
 
 .projects h1 {
 	font-size: 4vh;
+	font-weight: 500;
 	margin-top: 0%;
 }
 
 .project-card {
 	width:30%;
-	height: calc(30% - 20px);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 1%;
+	padding: 2%;
     margin: 1%;
 	border: black 0.1vh solid;
     border-radius: 10px;
 	box-sizing: border-box;
 }
 
+.project-card h1 {
+	font-size: 3vh;
+}
+
+.projects ul {
+	margin-top: 0;
+	text-align: left;
+}
+
 .project-card-image {
 	width: 50%;
-	height: 100%;
-	object-fit: contain;
 	justify-content: center;
-	border-radius: 10px;
+	margin-right: 1%;
+	border-radius: 2%;
 }
 
 .project-card-content {
@@ -52,4 +59,5 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-left: 1%;
 }
