@@ -1,24 +1,28 @@
-import { useEffect, useState } from "react";
 import "./Projects.css";
 
 const Projects = () => {
 	return (
-		<div className="projects">
+		<div className="projects" id="projects">
 			<h1>Projects</h1>
 			<div className="project-cards">
 				<ProjectCard
 					title="Echolocation"
-					description="A real-time collaborative music-making software that I developed with 2 other hackers at DubHacks '23."
-					tech_used={["React", "Node.js", "Socket.io", "Google Cloud Platform"]}
+					description="A real-time collaborative music-making software that I developed with 2 other hackers at DubHacks '23. Won the Synergy Track award."
+					tech_used={["React.js", "Socket.io", "Google Cloud Platform"]}
 					image="./images/echolocation.png"
 					link="https://github.com/TheYuch/Echolocation"
 				/>
 				<ProjectCard
-					title="Project 2"
-					description="This is a description of project 2."
-					tech_used={[]}
-					image="./images/nyc_portrait.JPG"
-					link=""
+					title="SyncroScribe"
+					description="An AI powered speech-to-text and summarization nurse note-taking software that I developed at DubHacks '24."
+					tech_used={[
+						"React.js",
+						"Express.js",
+						"OpenAI Whisper",
+						"CloudFlare Workers",
+					]}
+					image="./images/syncroscribe.jpg"
+					link="https://github.com/AlexXLi12/DubHacks-2024"
 				/>
 				<ProjectCard
 					title="Project 3"
@@ -46,7 +50,7 @@ const ProjectCard = ({ title, description, image, tech_used, link }) => {
 					))}
 				</ul>
 				<a href={link} rel="noopener noreferrer" target="_blank">
-					Project Link
+					<button className="project-link-button">Project Link</button>
 				</a>
 			</div>
 		</div>

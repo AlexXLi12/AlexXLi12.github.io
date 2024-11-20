@@ -50,6 +50,7 @@
 	justify-content: center;
 	margin-right: 1%;
 	border-radius: 2%;
+	object-fit: fill;
 }
 
 .project-card-content {
@@ -60,4 +61,20 @@
 	justify-content: center;
 	align-items: center;
 	margin-left: 1%;
+}
+
+button {
+	background-color: white;
+	transition: 0.5s ease;
+	border: black 0.1vh solid;
+	border-radius: 20px;
+	padding: 10%;
+	white-space: nowrap;
+	font-family: "Andale Mono", monospace;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #0061FF;
+	border-radius: 0px;
 }

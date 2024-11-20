@@ -31,3 +31,7 @@ h3 {
 	transform: rotateX(7.5deg); /* Tilts on hover */
 	box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3); /* Increased shadow for lift */
 }
+
+html {
+	scroll-behavior: smooth;
+}

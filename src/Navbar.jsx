@@ -4,9 +4,9 @@ const Navbar = () => {
         <nav className="navbar">
         <h1>Alex Li</h1>
         <div className="links">
-            <a href="/">About</a>
-            <a href="/projects">Projects</a>
-            <a href="/experience">Experience</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
         </div>
         </nav>
     );
