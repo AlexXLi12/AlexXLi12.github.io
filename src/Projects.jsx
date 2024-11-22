@@ -7,7 +7,7 @@ const Projects = () => {
 			<div className="project-cards">
 				<ProjectCard
 					title="Echolocation"
-					description="A real-time collaborative music-making software that I developed with 2 other hackers at DubHacks '23. Won the Synergy Track award."
+					description="A real-time collaborative music-making software. Won the Synergy Track award at DubHacks '23."
 					tech_used={["React.js", "Socket.io", "Google Cloud Platform"]}
 					image="./images/echolocation.png"
 					link="https://github.com/TheYuch/Echolocation"
@@ -19,17 +19,18 @@ const Projects = () => {
 						"React.js",
 						"Express.js",
 						"OpenAI Whisper",
-						"CloudFlare Workers",
+						"CloudFlare Workers API",
 					]}
 					image="./images/syncroscribe.jpg"
 					link="https://github.com/AlexXLi12/DubHacks-2024"
 				/>
 				<ProjectCard
-					title="Project 3"
-					description="This is a description of project 3."
-					tech_used={[]}
-					image="./images/nyc_portrait.JPG"
-					link=""
+					title="ConsciousCapital"
+					description="A web-app that creates a stock portfolio for users based on sector, individual companies' progressiveness/social values, and risk tolerance. 
+					Won the Best Web Hack award at HackTJ 10.0."
+					tech_used={["Flask", "Numpy", "Pandas", "Bootstrap"]}
+					image="./images/consciouscapital.png"
+					link="https://github.com/AlexXLi12/ConsciousCapital"
 				/>
 			</div>
 		</div>
