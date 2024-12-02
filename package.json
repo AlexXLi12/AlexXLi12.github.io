@@ -18,6 +18,8 @@
 	},
 	"scripts": {
 		"start": "vite",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
 		"build": "tsc && vite build",
 		"serve": "vite preview"
 	},
@@ -38,5 +40,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"gh-pages": "^6.2.0"
 	}
 }
