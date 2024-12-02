@@ -40,19 +40,21 @@ const Projects = () => {
 const ProjectCard = ({ title, description, image, tech_used, link }) => {
 	return (
 		<div className="project-card shadow-effect">
-			<img src={image} alt="" className="project-card-image" />
-			<div className="project-card-content">
-				<h1>{title}</h1>
-				<p>{description}</p>
-				<h4>Tech Used:</h4>
-				<ul>
-					{tech_used.map((tech, index) => (
-						<li key={index}>{tech}</li>
-					))}
-				</ul>
-				<a href={link} rel="noopener noreferrer" target="_blank">
-					<button className="project-link-button">Project Link</button>
-				</a>
+			<h1>{title}</h1>
+			<div className="project-card-body">
+				<img src={image} alt="" className="project-card-image" />
+				<div className="project-card-content">
+					<p>{description}</p>
+					<h4>Tech Used:</h4>
+					<ul>
+						{tech_used.map((tech, index) => (
+							<li key={index}>{tech}</li>
+						))}
+					</ul>
+					<a href={link} rel="noopener noreferrer" target="_blank">
+						<button className="project-link-button">Project Link</button>
+					</a>
+				</div>
 			</div>
 		</div>
 	);

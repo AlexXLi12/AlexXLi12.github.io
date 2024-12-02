@@ -4,10 +4,9 @@ const Jumbotron = () => {
 	return (
 		<div className="jumbotron" id='about'>
 			<div className="element" style={{ flexDirection: "row" }}>
-				<img className="portrait bend-effect" src="./images/portrait.jpg" alt="Portrait" />
+				<img className="portrait shadow-effect" src="./images/portrait.jpg" alt="Portrait" />
 				<About />
 			</div>
-			
 		</div>
 	);
 };
