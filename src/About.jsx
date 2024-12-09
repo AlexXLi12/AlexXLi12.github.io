@@ -9,14 +9,9 @@ const About = () => {
 				Hi, my name is Alex and I'm a second year student studying computer
 				science at the University of Washington.
 				<br />
-				I'm interested in low level programming, machine learning, and applied math.<br />
+				I'm interested in low level programming (FPGAs), machine learning, and applied math.<br />
 				<br />
-				{/* I'm currently working on research in the UW Sensor Systems Lab */}
-				<br />
-				<br />
-				Personal Project
-				<br /> <br />
-				I'm currently taking Machine Learning and Systems Programming.
+				I'm currently working on research in the UW Sensor Systems Lab under Jared Nakahara on acoustic levitation.
 			</p>
 			<div className="socials">
 				<a
