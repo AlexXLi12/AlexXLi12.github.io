@@ -17,19 +17,9 @@ h2,
 h3 {
 	font-family: "Andale Mono", monospace;
 }
-.bend-effect {
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); /* Initial shadow */
-	transition: transform 0.6s ease;
-}
 
 .shadow-effect {
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); /* Initial shadow */
-	transition: transform 0.6s ease;
-}
-
-.bend-effect:hover {
-	transform: rotateX(7.5deg); /* Tilts on hover */
-	box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3); /* Increased shadow for lift */
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); 
 }
 
 html {
