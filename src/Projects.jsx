@@ -51,11 +51,11 @@ const ProjectCard = ({ title, description, image, tech_used, link }) => {
 							<li key={index}>{tech}</li>
 						))}
 					</ul>
-					<a href={link} rel="noopener noreferrer" target="_blank">
-						<button className="project-link-button">Project Link</button>
-					</a>
 				</div>
 			</div>
+			<a href={link} rel="noopener noreferrer" target="_blank">
+				<button className="project-link-button">Project Link</button>
+			</a>
 		</div>
 	);
 };
