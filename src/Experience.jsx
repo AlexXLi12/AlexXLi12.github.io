@@ -33,12 +33,12 @@ const Experience = () => {
 	];
 
 	return (
-		<div className="experience" id="experience">
-			<h1>Experience</h1>
+		<section className="section" id="experience">
+			<h1 className="title">Experience</h1>
 			{positions.map((position, index) => (
 				<Position key={index} {...position} />
 			))}
-		</div>
+		</section>
 	);
 };
 

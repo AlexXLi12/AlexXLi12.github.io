@@ -1,10 +1,8 @@
-import "./Projects.css";
-
 const Projects = () => {
 	return (
-		<div className="projects" id="projects">
-			<h1>Projects</h1>
-			<div className="project-cards">
+		<section className="section" id="projects">
+			<h1 className="title">Projects</h1>
+			<div className="columns">
 				<ProjectCard
 					title="Echolocation"
 					description="A real-time collaborative music-making software. Won the Synergy Track award at DubHacks '23."
@@ -33,28 +31,28 @@ const Projects = () => {
 					link="https://github.com/AlexXLi12/ConsciousCapital"
 				/>
 			</div>
-		</div>
+		</section>
 	);
 };
 
 const ProjectCard = ({ title, description, image, tech_used, link }) => {
 	return (
-		<div className="project-card shadow-effect">
-			<h1>{title}</h1>
-			<div className="project-card-body">
-				<img src={image} alt="" className="project-card-image" />
-				<div className="project-card-content">
-					<p>{description}</p>
+		<div className="column card m-2 box">
+			<h1 className="title is-4">{title}</h1>
+			<div>
+				<img src={image} alt="" className="card-image" />
+				<div className="card-content">
+					<p className="content">{description}</p>
 					<h4>Tech Used:</h4>
-					<ul>
+					<ul className="list">
 						{tech_used.map((tech, index) => (
-							<li key={index}>{tech}</li>
+							<li key={index} className="list-item">{tech}</li>
 						))}
 					</ul>
 				</div>
 			</div>
 			<a href={link} rel="noopener noreferrer" target="_blank">
-				<button className="project-link-button">Project Link</button>
+				<button className="button">Project Link</button>
 			</a>
 		</div>
 	);

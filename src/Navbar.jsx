@@ -1,12 +1,9 @@
-import './Navbar.css';
 const Navbar = () => {
     return (
-        <nav className="navbar">
-        <div className="links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-        </div>
+        <nav className="navbar block has-background-grey-dark is-fixed-top">
+            <a className="navbar-item" href="#about">About</a>
+            <a className="navbar-item" href="#projects">Projects</a>
+            <a className="navbar-item" href="#experience">Experience</a>
         </nav>
     );
 }

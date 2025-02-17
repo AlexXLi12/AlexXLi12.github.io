@@ -1,15 +1,16 @@
-import "./App.css";
-import Jumbotron from "./Jumbotron";
+import About from "./About";
 import Projects from "./Projects";
 import Navbar from "./Navbar";
 import Experience from "./Experience";
 const App = () => {
 	return (
-		<div className="App">
+		<div>
 			<Navbar />
-			<Jumbotron />
-			<Projects />
-			<Experience />
+			<section className="section mt-5">
+				<About />
+				<Projects />
+				<Experience />
+			</section>
 		</div>
 	);
 }
