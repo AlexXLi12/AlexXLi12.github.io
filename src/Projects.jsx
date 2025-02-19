@@ -1,7 +1,7 @@
 const Projects = () => {
 	return (
 		<section className="section" id="projects">
-			<h1 className="title">Projects</h1>
+			<h1 className="title is-1">Projects</h1>
 			<div className="columns">
 				<ProjectCard
 					title="Echolocation"
@@ -37,23 +37,30 @@ const Projects = () => {
 
 const ProjectCard = ({ title, description, image, tech_used, link }) => {
 	return (
-		<div className="column card m-2 box">
-			<h1 className="title is-4">{title}</h1>
-			<div>
-				<img src={image} alt="" className="card-image" />
-				<div className="card-content">
-					<p className="content">{description}</p>
-					<h4>Tech Used:</h4>
-					<ul className="list">
-						{tech_used.map((tech, index) => (
-							<li key={index} className="list-item">{tech}</li>
-						))}
-					</ul>
-				</div>
+		<div className="column card is-flex is-flex-direction-column m-2">
+			<div className="card-content is-flex is-flex-direction-column">
+				<h1 className="title is-3">{title}</h1>
+				<img src={image} alt="" className="card-image block" />
+				<p className="content block">{description}</p>
+				<h4>Technologies Used:</h4>
+				<ul className="list">
+					{tech_used.map((tech, index) => (
+						<li key={index} className="list-item">
+							{tech}
+						</li>
+					))}
+				</ul>
 			</div>
-			<a href={link} rel="noopener noreferrer" target="_blank">
-				<button className="button">Project Link</button>
-			</a>
+			<footer className="card-footer mt-auto">
+				<a
+					href={link}
+					rel="noopener noreferrer"
+					target="_blank"
+					className="card-footer-item"
+				>
+					<p className="is-fullwidth">Project Link</p>
+				</a>
+			</footer>
 		</div>
 	);
 };

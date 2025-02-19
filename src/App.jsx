@@ -6,11 +6,9 @@ const App = () => {
 	return (
 		<div>
 			<Navbar />
-			<section className="section mt-5">
-				<About />
-				<Projects />
-				<Experience />
-			</section>
+			<About />
+			<Projects />
+			<Experience />
 		</div>
 	);
 }

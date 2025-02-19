@@ -2,19 +2,18 @@ import "./About.css";
 
 const About = () => {
 	return (
-		<section className="section box" id="about">
-			<div className="media">
-				<div className="media-left">
+		<section className="hero is-fullheight" id="about">
+			<div className="hero-body is-flex is-justify-content-center columns">
+				<div className="media-left is-half">
 					<figure 
 					className="image">
 						<img
-						style={{height: "400px"}}
 						src="./images/portrait.jpg"
 						alt="Portrait"
 						/>
 					</figure>
 				</div>
-				<div className="media-right has-text-centered">
+				<div className="media-right has-text-centered is-half column">
 					<h1 className="block title">Alex Li</h1>
 					<h3 className="block subtitle">Undergraduate Researcher</h3>
 					<p className="block">
