@@ -1,38 +1,32 @@
-import "./About.css";
-
 const About = () => {
 	return (
 		<section className="hero is-fullheight" id="about">
-			<div className="hero-body is-flex is-justify-content-center columns">
-				<div className="media-left is-half">
-					<figure 
-					className="image">
-						<img
-						src="./images/portrait.jpg"
-						alt="Portrait"
-						/>
-					</figure>
-				</div>
-				<div className="media-right has-text-centered is-half column">
+			<div className="hero-body is-flex is-justify-content-center">
+				<figure className="image mr-6">
+					<img src="./images/portrait.jpg" alt="Portrait" />
+				</figure>
+				<div className="has-text-centered">
 					<h1 className="block title">Alex Li</h1>
 					<h3 className="block subtitle">Undergraduate Researcher</h3>
 					<p className="block">
 						Hi, my name is Alex and I'm a second year student studying computer
 						science at the University of Washington.
 						<br />
-						I'm interested in low level programming (FPGAs), machine learning, and applied math.<br />
+						I'm interested in low level programming, FPGAs, and machine
+						learning. I'm also planning to minor in computational finance.
 						<br />
-						I'm currently working on research in the UW Sensor Systems Lab under Jared Nakahara on acoustic levitation.
+						I'm currently working on research in the UW Sensor Systems Lab under
+						Jared Nakahara on acoustic levitation.
 					</p>
-					<div className="block is-centered">
+					<div className="block is-centered is-flex is-justify-content-center">
 						<a
 							href="https://github.com/AlexXLi12"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="mr-3"
+							className="mr-3 "
 						>
 							<img
-								className="svg"
+								className="image is-96x96"
 								src="./images/github.svg"
 								alt="Github"
 								onMouseEnter={(e) => {
@@ -49,7 +43,7 @@ const About = () => {
 							rel="noopener noreferrer"
 						>
 							<img
-								className="svg"
+								className="image is-96x96"
 								src="./images/linkedin.svg"
 								alt="LinkedIn"
 								onMouseEnter={(e) => {
