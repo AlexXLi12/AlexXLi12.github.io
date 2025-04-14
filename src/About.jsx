@@ -5,7 +5,7 @@ const About = () => {
 				<figure className="image mr-6">
 					<img src="./images/portrait.jpg" alt="Portrait" />
 				</figure>
-				<div className="has-text-centered">
+				<div className="has-text-centered is-flex is-flex-direction-column is-justify-content-center">
 					<h1 className="block title">Alex Li</h1>
 					<h3 className="block subtitle">Undergraduate Researcher</h3>
 					<p className="block">
@@ -17,7 +17,20 @@ const About = () => {
 						<br />
 						I'm currently working on research in the UW Sensor Systems Lab under
 						Jared Nakahara on acoustic levitation.
+						<br /> <br />
 					</p>
+
+					<h3 className="subtitle">Current Personal Project:</h3>
+					<div className="block" style={{ width: "40vw"}}>
+						<p className="has-text-justified m-3">
+							Building out a web interface for an Othello/Reversi game where
+							users can play against my engine!
+							The engine uses negamax and alpha-beta pruning to search the game
+							tree.
+							Also looking into accelerating the engine with bitboards and
+							converting the engine to C++.
+						</p>
+					</div>
 					<div className="block is-centered is-flex is-justify-content-center">
 						<a
 							href="https://github.com/AlexXLi12"

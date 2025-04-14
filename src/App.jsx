@@ -1,14 +1,14 @@
 import About from "./About";
 import Projects from "./Projects";
 import Navbar from "./Navbar";
-import Experience from "./Experience";
+import News from "./News";
 const App = () => {
 	return (
 		<div>
 			<Navbar />
 			<About />
+			<News />
 			<Projects />
-			<Experience />
 		</div>
 	);
 }
