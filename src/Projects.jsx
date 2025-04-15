@@ -7,7 +7,6 @@ const Projects = () => {
 					title="Echolocation"
 					description="A real-time collaborative music-making software. Won the Synergy Track award at DubHacks '23."
 					tech_used={["React.js", "Socket.io", "Google Cloud Platform"]}
-					image="./images/echolocation.png"
 					link="https://github.com/TheYuch/Echolocation"
 				/>
 				<ProjectCard
@@ -19,7 +18,6 @@ const Projects = () => {
 						"OpenAI Whisper",
 						"CloudFlare Workers API",
 					]}
-					image="./images/syncroscribe.jpg"
 					link="https://github.com/AlexXLi12/DubHacks-2024"
 				/>
 				<ProjectCard
@@ -27,7 +25,6 @@ const Projects = () => {
 					description="A web-app that creates a stock portfolio for users based on sector, individual companies' progressiveness/social values, and risk tolerance. 
 					Won the Best Web Hack award at HackTJ 10.0."
 					tech_used={["Flask", "Numpy", "Pandas", "Bootstrap"]}
-					image="./images/consciouscapital.png"
 					link="https://github.com/AlexXLi12/ConsciousCapital"
 				/>
 			</div>
@@ -35,12 +32,11 @@ const Projects = () => {
 	);
 };
 
-const ProjectCard = ({ title, description, image, tech_used, link }) => {
+const ProjectCard = ({ title, description, tech_used, link }) => {
 	return (
 		<div className="column card is-flex is-flex-direction-column m-2">
 			<div className="card-content is-flex is-flex-direction-column">
 				<h1 className="title is-3">{title}</h1>
-				<img src={image} alt="" className="card-image block" />
 				<p className="content block">{description}</p>
 				<h4>Technologies Used:</h4>
 				<ul className="list">

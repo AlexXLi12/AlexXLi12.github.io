@@ -20,7 +20,7 @@ const About = () => {
 						<br /> <br />
 					</p>
 
-					<h3 className="subtitle">Current Personal Project:</h3>
+					<h3 className="subtitle">What I'm Working On:</h3>
 					<div className="block" style={{ width: "40vw"}}>
 						<p className="has-text-justified m-3">
 							Building out a web interface for an Othello/Reversi game where
