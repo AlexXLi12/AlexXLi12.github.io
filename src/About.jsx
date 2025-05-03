@@ -23,12 +23,9 @@ const About = () => {
 					<h3 className="subtitle">What I'm Working On:</h3>
 					<div className="block" style={{ width: "40vw"}}>
 						<p className="has-text-justified m-3">
-							Building out a web interface for an Othello/Reversi game where
-							users can play against my engine!
-							The engine uses negamax and alpha-beta pruning to search the game
-							tree.
-							Also looking into accelerating the engine with bitboards and
-							converting the engine to C++.
+							Building an Othello Game Engine in C++. The goal of this project
+							is to reimplement an engine I wrote in Python, but with a focus on
+							optimizing the performance of the engine using bitboards and concurrency.
 						</p>
 					</div>
 					<div className="block is-centered is-flex is-justify-content-center">
