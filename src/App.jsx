@@ -1,3 +1,4 @@
+import "./AppDark.css";
 import About from "./About";
 import Projects from "./Projects";
 import Navbar from "./Navbar";
@@ -13,5 +14,5 @@ const App = () => {
 			<Resume />
 		</div>
 	);
-}
+};
 export default App;

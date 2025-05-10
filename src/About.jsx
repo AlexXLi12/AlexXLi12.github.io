@@ -1,14 +1,14 @@
 const About = () => {
 	return (
-		<section className="hero is-fullheight" id="about">
-			<div className="hero-body is-flex is-justify-content-center">
-				<figure className="image mr-6">
+		<section className="section" id="about">
+			<div className="about-container">
+				<figure className="about-image">
 					<img src="./images/portrait.jpg" alt="Portrait" />
 				</figure>
-				<div className="has-text-centered is-flex is-flex-direction-column is-justify-content-center">
-					<h1 className="block title">Alex Li</h1>
-					<h3 className="block subtitle">Undergraduate Researcher</h3>
-					<p className="block">
+				<div className="about-content">
+					<h1 className="title">Alex Li</h1>
+					<h3 className="subtitle">Undergraduate Researcher</h3>
+					<p>
 						Hi, my name is Alex and I'm a second year student studying computer
 						science at the University of Washington.
 						<br />
@@ -17,29 +17,27 @@ const About = () => {
 						<br />
 						I'm currently working on research in the UW Sensor Systems Lab under
 						Jared Nakahara on acoustic levitation.
-						<br /> <br />
+						<br />
+						<br />
 					</p>
-
 					<h3 className="subtitle">What I'm Working On:</h3>
-					<div className="block" style={{ width: "40vw"}}>
-						<p className="has-text-justified m-3">
+					<div className="about-project-desc">
+						<p>
 							Building out a web interface for an Othello/Reversi game where
-							users can play against my engine!
-							The engine uses negamax and alpha-beta pruning to search the game
-							tree.
-							Also looking into accelerating the engine with bitboards and
-							converting the engine to C++.
+							users can play against my engine! The engine uses negamax and
+							alpha-beta pruning to search the game tree. Also looking into
+							accelerating the engine with bitboards and converting the engine
+							to C++.
 						</p>
 					</div>
-					<div className="block is-centered is-flex is-justify-content-center">
+					<div className="about-links">
 						<a
 							href="https://github.com/AlexXLi12"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="mr-3 "
 						>
 							<img
-								className="image is-96x96"
+								className="about-icon"
 								src="./images/github.svg"
 								alt="Github"
 								onMouseEnter={(e) => {
@@ -56,7 +54,7 @@ const About = () => {
 							rel="noopener noreferrer"
 						>
 							<img
-								className="image is-96x96"
+								className="about-icon"
 								src="./images/linkedin.svg"
 								alt="LinkedIn"
 								onMouseEnter={(e) => {

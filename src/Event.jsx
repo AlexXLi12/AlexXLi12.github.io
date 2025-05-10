@@ -1,7 +1,9 @@
-const Event = ({description, date }) => {
+const Event = ({ description, date }) => {
 	return (
-		<div className="block">
-			<p className="content">{date}: {description}</p>
+		<div className="news-item">
+			<p>
+				<span className="news-date">{date}:</span> {description}
+			</p>
 		</div>
 	);
 };
