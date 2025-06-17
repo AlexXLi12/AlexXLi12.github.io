@@ -9,14 +9,14 @@ const About = () => {
 					<h1 className="title">Alex Li</h1>
 					<h3 className="subtitle">Undergraduate Researcher</h3>
 					<p>
-						Hi, my name is Alex and I'm a second year student studying computer
+						Hi, my name is Alex and I'm a rising third year student studying computer
 						science at the University of Washington.
 						<br />
-						I'm interested in low level programming, FPGAs, and machine
-						learning. I'm also planning to minor in computational finance.
+						I'm broadly interested in low level programming, distributed systems, and
+						data infrastructure.
 						<br />
-						I'm currently working on research in the UW Sensor Systems Lab under
-						Jared Nakahara on acoustic levitation.
+						I am currently interning at Chewy as a Software Engineer Intern on the
+						Sponsored Ads Data team.
 						<br />
 						<br />
 					</p>
