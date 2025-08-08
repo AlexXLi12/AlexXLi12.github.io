@@ -3,6 +3,14 @@ import Event from "./Event";
 const News = () => {
 	const events = [
 		{
+			date: "July 23-25 2025",
+			description: (
+				<>
+					Attended the Salesforce Futureforce Tech Accelerator 2025, an invite-only 3-day event hosted at Salesforce HQ in San Fransisco.
+				</>
+			)
+		},
+		{
 			date: "April 27 2025",
 			description: (
 				<>
