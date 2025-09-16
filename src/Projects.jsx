@@ -4,16 +4,22 @@ const Projects = () => {
 			<h1 className="title is-1">Projects</h1>
 			<div className="columns">
 				<ProjectCard
-					title="Renaissance Research"
-					description="A web app that helps researchers find novel applications for old/overlooked research. Won the Best use of AI and Best Finance/Data Analytics Project awards at HackTech 2025."
-					tech_used={["Next.js", "React.js", "BeautifulSoup", "Google Gemini API", "Pydantic"]}
-					link="https://renresearch.co"
+					title="C++ Othello Engine"
+					description="A Dockerized C++ Othello game engine with negamax search, alpha-beta pruning, and multithreading."
+					tech_used={["C++", "Multithreading", "gprof"]}
+					link="https://github.com/AlexXLi12/othello-engine-grpc"
 				/>
 				<ProjectCard
-					title="Echolocation"
-					description="A real-time collaborative music-making software. Won the Synergy Track award at DubHacks '23."
-					tech_used={["React.js", "Socket.io", "Google Cloud Platform"]}
-					link="https://github.com/TheYuch/Echolocation"
+					title="Renaissance Research"
+					description="A web app that helps researchers find novel applications for old/overlooked research. Won the Best use of AI and Best Finance/Data Analytics Project awards at HackTech 2025."
+					tech_used={[
+						"Next.js",
+						"React.js",
+						"BeautifulSoup",
+						"Google Gemini API",
+						"Pydantic",
+					]}
+					link="https://renresearch.co"
 				/>
 				<ProjectCard
 					title="ConsciousCapital"
