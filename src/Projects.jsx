@@ -1,7 +1,7 @@
 const Projects = () => {
 	return (
 		<section className="section" id="projects">
-			<h1 className="title is-1">Projects</h1>
+			<h1 className="title title-large">Projects</h1>
 			<div className="columns">
 				<ProjectCard
 					title="Othello Game AI"
@@ -30,10 +30,10 @@ const Projects = () => {
 
 const ProjectCard = ({ title, description, tech_used, link }) => {
 	return (
-		<div className="column card is-flex is-flex-direction-column m-2">
-			<div className="card-content is-flex is-flex-direction-column">
-				<h1 className="title is-3">{title}</h1>
-				<p className="content block">{description}</p>
+			<div className="card project-card">
+			<div className="card-content">
+				<h1 className="title title-medium">{title}</h1>
+				<p className="card-description">{description}</p>
 				<h4>Technologies Used:</h4>
 				<ul className="list">
 					{tech_used.map((tech, index) => (
@@ -50,7 +50,7 @@ const ProjectCard = ({ title, description, tech_used, link }) => {
 					target="_blank"
 					className="card-footer-item"
 				>
-					<p className="is-fullwidth">Project Link</p>
+					<span className="card-footer-label">Project Link</span>
 				</a>
 			</footer>
 		</div>

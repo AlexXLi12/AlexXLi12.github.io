@@ -48,7 +48,7 @@ const News = () => {
 
 	return (
 		<section className="section" id="news">
-			<h1 className="title is-1">News</h1>
+			<h1 className="title title-large">News</h1>
 			{events.map((event, index) => (
 				<Event key={index} {...event} />
 			))}

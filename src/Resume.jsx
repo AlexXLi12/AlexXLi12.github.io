@@ -1,7 +1,7 @@
 const Resume = () => {
 	return (
 		<div className="section" id="resume">
-			<h1 className="title is-1">Resume</h1>
+			<h1 className="title title-large">Resume</h1>
 			<div className="resume-viewer">
 				<embed
 					src="resume.pdf"

@@ -21,11 +21,11 @@ const About = () => {
 						<br />
 					</p>
 					<h3 className="subtitle">What I'm Working On:</h3>
-					<div className="block" style={{ width: "40vw"}}>
-						<p className="has-text-justified m-3">
-							Building an Othello Game Engine in C++. The goal of this project <br/>
-							is to reimplement an engine I wrote in Python, but with a focus on<br/>
-							optimizing the performance of the engine using bitboards and concurrency.<br/>
+					<div className="about-project-desc">
+						<p className="about-project-text">
+							Building an Othello Game Engine in C++. The goal of this project <br />
+							is to reimplement an engine I wrote in Python, but with a focus on <br />
+							optimizing the performance of the engine using bitboards and concurrency.<br />
 						</p>
 					</div>
 					<div className="about-links">
