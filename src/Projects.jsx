@@ -4,16 +4,21 @@ const Projects = () => {
 			<h1 className="title title-large">Projects</h1>
 			<div className="columns">
 				<ProjectCard
-					title="Othello Game AI"
-					description="An optimized AI to play the game Othello, implemented in C++.
-              Uses minimax algorithm with alpha-beta pruning and iterative deepening to make optimal moves within a time limit."
-					tech_used={["C++", "Profiling", "Multithreading"]}
+					title="C++ Othello Engine"
+					description="A Dockerized C++ Othello game engine with negamax search, alpha-beta pruning, and multithreading."
+					tech_used={["C++", "Multithreading", "gprof"]}
 					link="https://github.com/AlexXLi12/othello-engine-grpc"
 				/>
 				<ProjectCard
 					title="Renaissance Research"
 					description="A web app that helps researchers find novel applications for old/overlooked research. Won the Best use of AI and Best Finance/Data Analytics Project awards at HackTech 2025."
-					tech_used={["Next.js", "React.js", "BeautifulSoup", "Google Gemini API", "Pydantic"]}
+					tech_used={[
+						"Next.js",
+						"React.js",
+						"BeautifulSoup",
+						"Google Gemini API",
+						"Pydantic",
+					]}
 					link="https://renresearch.co"
 				/>
 				<ProjectCard
