@@ -2,6 +2,14 @@ import Event from "./Event";
 
 const News = () => {
 	const events = [
+    {
+      date: "October 2025",
+      description: (
+        <>
+          Accepted an internship offer as a Software Engineer Intern at Rubrik for Winter 2026!
+        </>
+      ),
+    },
 		{
 			date: "July 23-25 2025",
 			description: (
