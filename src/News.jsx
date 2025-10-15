@@ -6,7 +6,7 @@ const News = () => {
       date: "October 2025",
       description: (
         <>
-          Accepted an internship offer as a Software Engineer Intern at Rubrik for Winter 2026!
+          Accepted an internship offer as a Software Engineer Intern at Rubrik for Winter/Spring 2026!
         </>
       ),
     },
