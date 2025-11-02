@@ -6,7 +6,7 @@ const News = () => {
       date: "October 2025",
       description: (
         <>
-          Accepted an internship offer as a Software Engineer Intern at Rubrik for Winter/Spring 2026!
+          Accepted an internship offer at Rubrik for Winter/Spring 2026, and from Oracle for Summer 2026!
         </>
       ),
     },
@@ -33,16 +33,6 @@ const News = () => {
 					target="_blank" rel="noopener noreferrer">here</a>!
 				</>
 			),
-		},
-		{
-			date: "January 31, 2025",
-			description:
-				"Accepted an offer as a Software Engineer Intern at Chewy for Summer 2025!",
-		},
-		{
-			date: "December 2024",
-			description:
-				"Started a new position as a Research Assistant at the UW Sensor Systems Lab working on FPGA data transmission.",
 		},
 	];
 
