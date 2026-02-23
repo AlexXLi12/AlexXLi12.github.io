@@ -1,9 +1,8 @@
 const Event = ({ description, date }) => {
 	return (
-		<div className="news-item">
-			<p>
-				<span className="news-date">{date}:</span> {description}
-			</p>
+		<div className="timeline-item" data-animate>
+			<div className="timeline-date">{date}</div>
+			<div className="timeline-text">{description}</div>
 		</div>
 	);
 };

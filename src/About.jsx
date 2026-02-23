@@ -1,67 +1,65 @@
 const About = () => {
 	return (
-		<section className="section" id="about">
+		<section className="section hero" id="about">
 			<div className="about-container">
-				<figure className="about-image">
-					<img src="./images/portrait.jpg" alt="Portrait" />
+				<figure className="about-image" data-animate>
+					<img src="./images/portrait.jpg" alt="Alex Li" />
 				</figure>
 				<div className="about-content">
-					<h1 className="title">Alex Li</h1>
-					<h3 className="subtitle">Undergraduate Researcher</h3>
-					<p>
-						Hi, my name is Alex and I'm a rising third year student studying computer
-						science at the University of Washington.
-						<br />
-						I'm broadly interested in low level programming, distributed systems, and
-						data infrastructure.
-						<br />
-						I am currently interning at Chewy as a Software Engineer Intern on the
-						Sponsored Ads Data team.
-						<br />
-						<br />
+					<p className="prompt-line" data-animate>
+						<span className="prompt">$</span> whoami
 					</p>
-					<h3 className="subtitle">What I'm Working On:</h3>
-					<div className="about-project-desc">
-						<p className="about-project-text">
-							Building an Othello Game Engine in C++. The goal of this project <br />
-							is to reimplement an engine I wrote in Python, but with a focus on <br />
-							optimizing the performance of the engine using bitboards and concurrency.<br />
+					<h1 className="hero-name" data-animate data-delay="1">
+						Alex Li
+						<span className="cursor" />
+					</h1>
+					<p className="hero-tagline" data-animate data-delay="2">
+						<span className="prompt">{">"}</span> distributed systems &
+						databases
+					</p>
+					<p className="hero-bio" data-animate data-delay="3">
+						Hi, my name is Alex and I'm a third year student studying computer
+						science at the University of Washington. I'm broadly interested in
+						distributed systems and data infrastructure.
+					</p>
+					<div className="about-project-section" data-animate data-delay="4">
+						<p className="about-project-label">
+							<span className="prompt">$</span> cat current_project.txt
 						</p>
+						<div className="about-project-desc">
+							<p className="about-project-text">
+								An Othello Game Engine in C++, reimplementing an engine I wrote
+								in Python with a focus on optimizing performance using bitboards
+								and concurrency.
+							</p>
+						</div>
 					</div>
-					<div className="about-links">
+					<div className="about-links" data-animate data-delay="5">
 						<a
 							href="https://github.com/AlexXLi12"
 							target="_blank"
 							rel="noopener noreferrer"
+							className="about-icon-link"
 						>
 							<img
 								className="about-icon"
 								src="./images/github.svg"
-								alt="Github"
-								onMouseEnter={(e) => {
-									e.target.src = "./images/github_hover.svg";
-								}}
-								onMouseLeave={(e) => {
-									e.target.src = "./images/github.svg";
-								}}
+								alt="GitHub"
 							/>
+							<span className="link-label">github</span>
 						</a>
 						<a
 							href="https://www.linkedin.com/in/alex-li12"
 							target="_blank"
 							rel="noopener noreferrer"
+							className="about-icon-link"
 						>
 							<img
 								className="about-icon"
 								src="./images/linkedin.svg"
 								alt="LinkedIn"
-								onMouseEnter={(e) => {
-									e.target.src = "./images/linkedin_hover.svg";
-								}}
-								onMouseLeave={(e) => {
-									e.target.src = "./images/linkedin.svg";
-								}}
 							/>
+							<span className="link-label">linkedin</span>
 						</a>
 					</div>
 				</div>
