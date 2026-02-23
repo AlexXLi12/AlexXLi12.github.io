@@ -2,15 +2,14 @@ import Event from "./Event";
 
 const News = () => {
 	const events = [
-		{
-			date: "October 2025",
-			description: (
-				<>
-					Accepted an internship offer as a Software Engineer Intern at Rubrik
-					for Winter 2026!
-				</>
-			),
-		},
+    {
+      date: "October 2025",
+      description: (
+        <>
+          Accepted an internship offer at Rubrik for Winter/Spring 2026, and from Oracle for Summer 2026!
+        </>
+      ),
+    },
 		{
 			date: "July 23-25 2025",
 			description: (
@@ -45,16 +44,6 @@ const News = () => {
 					!
 				</>
 			),
-		},
-		{
-			date: "January 31, 2025",
-			description:
-				"Accepted an offer as a Software Engineer Intern at Chewy for Summer 2025!",
-		},
-		{
-			date: "December 2024",
-			description:
-				"Started a new position as a Research Assistant at the UW Sensor Systems Lab working on FPGA data transmission.",
 		},
 	];
 
