@@ -20,7 +20,7 @@ const About = () => {
 					<p className="hero-bio" data-animate data-delay="3">
 						Hi, my name is Alex and I'm a third year student studying computer
 						science at the University of Washington. I'm broadly interested in
-						distributed systems and data infrastructure.
+						distributed systems and databases.
 					</p>
 					<div className="about-project-section" data-animate data-delay="4">
 						<p className="about-project-label">
